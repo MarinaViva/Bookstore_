@@ -1,0 +1,74 @@
+/* Reset standardmarginaler och utfyllnad för hela sidan */
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+/* Bakgrundsfärg och minsta höjd för att täcka hela skärmen */
+body {
+	background-color: #5DA47D;
+	/* eller någon annan önskad färg */
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Container-stilar för kontaktformuläret */
+.contact-container {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	max-width: 400px;
+	width: 100%;
+}
+
+/* Rubrikstil för kontaktformuläret */
+.contact-container h1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+/* Allmän stil för textfält och knappar */
+.input-field {
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+	font-size: 1rem;
+}
+
+/* Stil för skicka-knappen */
+.submit-button {
+	background-color: #34D399;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border: none;
+	border-radius: 0.25rem;
+	font-size: 1rem;
+	padding: 0.75rem 1rem;
+}
+
+/* Hover-effekt för skicka-knappen */
+.submit-button:hover {
+	background-color: #1DAF6B;
+
+}
+
+/* Stil för sociala medier-länkar */
+.social-media-link {
+	text-decoration: none;
+	color: #3182CE;
+	transition: color 0.3s ease;
+}
+
+/* Hover-effekt för sociala medier-länkar */
+.social-media-link:hover {
+	color: #2C5282;
+}

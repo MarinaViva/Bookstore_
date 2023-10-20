@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("book.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Styling för navigationsfältet */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  /* Styling för logotypen i navigationsfältet */
+  /* Styling för navigationslänkar */
+  /* Styling för popup-fönstret */
+}
+.nav-container .logo img {
+  width: 80px;
+  border-radius: 50%;
+}
+.nav-container .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  /* Avstånd mellan navigationslänkarna */
+  /* Återställ standardmarginalen för listelementen i navigationslänkarna */
+  /* Styling för navigationslänkar */
+}
+.nav-container .nav-links li {
+  margin: 0;
+}
+.nav-container .nav-links a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 500px) {
+  .nav-container .nav-container {
+    padding: 5px 10px;
+    /* Anpassa padding för mindre skärmar */
+  }
+  .nav-container .nav-links {
+    gap: 20px;
+  }
+  .nav-container .logo img {
+    width: 60px;
+    /* Justera logostorlek för mindre skärmar */
+  }
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}/*# sourceMappingURL=styles.css.map */
